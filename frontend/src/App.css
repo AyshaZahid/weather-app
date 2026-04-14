@@ -1,0 +1,26 @@
+.tab-bar {
+  display: flex;
+  gap: 0;
+  background: #080b14;
+  padding: 16px 40px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.tab-btn {
+  padding: 12px 28px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: rgba(255,255,255,0.35);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-btn:hover { color: rgba(255,255,255,0.7); }
+
+.tab-btn.active {
+  color: #00e5ff;
+  border-bottom-color: #00e5ff;
+}
