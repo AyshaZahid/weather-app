@@ -10,7 +10,7 @@ let STRATEGY = 'least_conn'; // 'round_robin' | 'least_conn' | 'ip_hash'
 // Backend servers
 const servers = [
   {
-    url: 'http://localhost:3001',
+    url: 'https://weather-app-server1.onrender.com',
     isHealthy: true,
     active: 0,
     name: 'Server 1',
@@ -19,7 +19,7 @@ const servers = [
     totalResponseTime: 0,
   },
   {
-    url: 'http://localhost:3002',
+    url: 'https://weather-app-server2.onrender.com',
     isHealthy: true,
     active: 0,
     name: 'Server 2',
@@ -28,7 +28,7 @@ const servers = [
     totalResponseTime: 0,
   },
   {
-    url: 'http://localhost:3003',
+    url: 'https://weather-app-65jd.onrender.com',
     isHealthy: true,
     active: 0,
     name: 'Server 3',
